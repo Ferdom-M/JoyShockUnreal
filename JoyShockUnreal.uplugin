@@ -1,0 +1,29 @@
+{
+	"FileVersion": 3,
+	"FriendlyName": "JoyShock Unreal",
+	"Version": 1,
+	"VersionName": "1.0",
+	"CreatedBy": "Ferdom-M",
+	"CreatedByURL": "https://github.com/Ferdom-M",
+	"Description": "Uses JibbSmart's JoyShockLibrary and links it to Unreal using its enhanced input system.",
+	"Category": "Input Devices",
+	"EnabledByDefault": false,
+	"Modules": [
+		{
+			"Name": "JoyShockUnreal",
+			"Type": "Runtime",
+			"WhitelistPlatforms": [
+				"Win64",
+				"Win32"
+			],
+			"LoadingPhase": "Default"
+		}
+	],
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": false,
+	"IsBetaVersion": true,
+	"IsExperimentalVersion": false,
+	"Installed": false
+}
